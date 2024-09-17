@@ -1,10 +1,36 @@
-<script>
-    var result = false;
-    var num = 25;
-    var str = "سلام دوستان عزیز "
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 
-    alert(typeof str);
-    alert(10 == 9);
+    <script>
 
+        var yourName = prompt("لطفا نام خود را وارد کنید :");
+        var ask = confirm("آیا از این کار مطمئن هستید ؟");
+        var yourage = prompt("لطفا سن خود را وارد کنید :");
 
-</script>
+        var name = "نام من هست:  " + yourName;
+        var sure = "پاسخ من هست : " + ask;
+        var age = "سن من هست : " + yourage;
+
+        console.log(name);
+        console.log(sure);
+        console.log(age);
+
+        console.log("نوع داده ای نام من هست :" + typeof yourName);
+        console.log("نوع داده ای پاسخ اطمینان من هست :" + typeof ask);
+        console.log("نوع داده سن من هست :" + typeof yourage);
+        
+        
+        
+        
+       
+
+    </script>
+    
+</body>
+</html>
