@@ -20,3 +20,9 @@ console.log("تقسیم دو عدد برابر است با :" + division);
 console.log("آیا دو عدد وارد شده باهم برابرند؟:" + equalTo);
 console.log("آیا دو عدد وارد شده باهم مخالف هستند؟:" + notEqualTo);
 
+function test() {
+    console.log(5555);
+    
+}
+
+test();
