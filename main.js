@@ -1,33 +1,11 @@
-var number1 = 5; // 5
-console.log(number1);
+console.log(Boolean(0));//true
+var change = false;
 
-number1 ++;// 6
-console.log(number1);
-number1 --; // 5
-console.log(number1);
+var numChange = Number(change);
 
-number1 += 10 // 15
-console.log(number1);
-number1 -= 5 // 10
-console.log(number1);
-number1 *= 5 // 50
-console.log(number1);
+console.log(numChange);
 
-
-var string1 = "hello";
-
-string1 += " " + "world";
-
-console.log(string1);
-
-
-
-
-
-
-
-
-
+console.log(Boolean("0"));
 
 
 
