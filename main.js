@@ -1,19 +1,18 @@
-// console.log(Boolean(0));//true
-// var change = false;
 
-// var numChange = Number(change);
+var number1 = 5;//5
 
-// console.log(numChange);
+number1++; //6 
 
-// console.log(Boolean("0"));
+if (number1 > 5){ // false
+    alert("عدد شما بزرگتر از 5 است")
+}else{
+    alert("عدد شما کوچکتر یا مساوی 5 است")
+}
 
 
-var a = 1
 
-var b = ++a;
-console.log(b);
-b = ++a
-console.log(b);
+
+
 
 
 
