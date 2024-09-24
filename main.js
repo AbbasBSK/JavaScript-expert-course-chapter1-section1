@@ -1,14 +1,16 @@
+var yourAge = prompt(":لطفا سن خود را وارد کنید");
 
-var number1 = 5;//5
-
-number1++; //6 
-
-if (number1 > 5){ // false
-    alert("عدد شما بزرگتر از 5 است")
+if (yourAge > 50 ) {
+    alert("شما یک فرد مسن هستید");    
+}else if (yourAge > 30 ){
+    alert("شما یک فرد بزرگسال هستید");
+}else if (yourAge >= 18 ){
+    alert("شما  جوان هستید");
+}else if (yourAge > 10 ){
+    alert("شما نوجوان هستید");
 }else{
-    alert("عدد شما کوچکتر یا مساوی 5 است")
+    alert("شما  کودک هستید");
 }
-
 
 
 
