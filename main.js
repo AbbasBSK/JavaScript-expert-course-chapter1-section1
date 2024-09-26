@@ -1,16 +1,15 @@
-var yourAge = prompt(":لطفا سن خود را وارد کنید");
 
-if (yourAge > 50 ) {
-    alert("شما یک فرد مسن هستید");    
-}else if (yourAge > 30 ){
-    alert("شما یک فرد بزرگسال هستید");
-}else if (yourAge >= 18 ){
-    alert("شما  جوان هستید");
-}else if (yourAge > 10 ){
-    alert("شما نوجوان هستید");
+var grade = 12 ;
+var attendance = 50;
+
+if (grade >= 10 && attendance >= 50) {
+    alert("شما نمره قبولی گرفته اید");
+}else if(grade >= 17 || attendance >= 90){
+    alert("شما نمره قبولی گرفته اید");
 }else{
-    alert("شما  کودک هستید");
+    alert("شما  مردود شده اید");
 }
+
 
 
 
