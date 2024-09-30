@@ -22,6 +22,9 @@ var num2 = num-- // num2 = num = num - 1
 
 console.log(num2);// 5
 console.log(num);
+function start () {
+    alert("start function");
+}
 
 
 
