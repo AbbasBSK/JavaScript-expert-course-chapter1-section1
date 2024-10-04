@@ -1,17 +1,12 @@
+var name = "abbas";
+var age = 35;
 
-function sayHello() {
-    var num1 = 2;
-    var num2 = 5;
-   alert(num1 * num2);
-}
+var string1 = "my name is \n" + " " + name + "and i am " + age + " years old";
+var string2 = `my name is       ${name} and i am
+  ${age}  years old` 
 
-// var num1 = prompt("لطفا یک عدد وارد کنید:");
-
-sayHello();
-
-
-
-
+console.log(string1);
+console.log(string2);
 
 
 
