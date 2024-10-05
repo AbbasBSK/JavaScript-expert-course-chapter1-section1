@@ -8,6 +8,11 @@ var string2 = `my name is       ${name} and i am
 console.log(string1);
 console.log(string2);
 
+var num1 = 5;
+var num2 = 8;
+
+alert(num1 + num2)
+
 
 
 
