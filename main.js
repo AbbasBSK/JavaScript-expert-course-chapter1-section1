@@ -1,19 +1,15 @@
-var name = "abbas";
-var age = 35;
+function test(a , b) {
+  var name = a;
+  var age = b;
 
-var string1 = "my name is \n" + " " + name + "and i am " + age + " years old";
-var string2 = `my name is       ${name} and i am
-  ${age}  years old` 
+  alert(`my nam is ${name} and my age is ${age} years old`);
+  
+}
 
-console.log(string1);
-console.log(string2);
+var yourName = prompt(`please insert your name :`);
+var yourAge = prompt(`please insert your age ;`);
 
-var num1 = 5;
-var num2 = 8;
-
-alert(num1 + num2)
-
-
+test(yourName , yourAge);
 
 
 
