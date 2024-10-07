@@ -1,4 +1,4 @@
-function test(a , b) {
+function test(a , b , c) {
   var name = a;
   var age = b;
 
@@ -8,8 +8,9 @@ function test(a , b) {
 
 var yourName = prompt(`please insert your name :`);
 var yourAge = prompt(`please insert your age ;`);
+var bool = confirm("enter ok or cancel :")
 
-test(yourName , yourAge);
+test(yourName , yourAge , c);
 
 
 
