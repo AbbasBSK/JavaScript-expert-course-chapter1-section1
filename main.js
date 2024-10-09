@@ -1,19 +1,32 @@
+// function myName(a ,b) {
 
-var yourName = prompt(`please insert your name :`);
-var yourAge = prompt(`please insert your age ;`);
-var bool = confirm("enter ok or cancel :")
 
-function test(a , b , c) {
-  var name = a;
-  var age = b;
+//   alert((`my nam is ${a} and my age is ${b} years old`));
+// }
+
+
+// myName("mohammad" , 6);
+
+var yourName = prompt("please insert your name :");
+var age = prompt("please insert your age :");
+var bool = confirm("enter ok or cancel:");
+
+
+function myName(a , b , c) {
   
-  if (c) {
-    alert(`my nam is ${name} and my age is ${age} years old`);
+  if (c == true) {
+    alert(`my nam is ${a} and my age is ${b} years old`)
+  }else{
+    alert("error..............!");
   }
 }
 
+myName(yourName , age , bool);
 
-test(yourName , yourAge , c);
+
+
+
+
 
 
 
