@@ -15,13 +15,13 @@ var bool = confirm("enter ok or cancel:");
 function myName(a , b , c) {
   
   if (c == true) {
-    alert(`my nam is ${a} and my age is ${b} years old`)
-  }else{
-    alert("error..............!");
+    // alert(`my nam is ${a} and my age is ${b} years old`)
+    return(`my nam is ${a} and my age is ${b} years old`)
   }
+
 }
 
-myName(yourName , age , bool);
+alert(myName(yourName , age , bool));
 
 
 
