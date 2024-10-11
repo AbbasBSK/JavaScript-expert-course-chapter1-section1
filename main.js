@@ -1,27 +1,13 @@
-// function myName(a ,b) {
+function test1() {
+  var num1 = 5;
+  var num2 = 8;
 
-
-//   alert((`my nam is ${a} and my age is ${b} years old`));
-// }
-
-
-// myName("mohammad" , 6);
-
-var yourName = prompt("please insert your name :");
-var age = prompt("please insert your age :");
-var bool = confirm("enter ok or cancel:");
-
-
-function myName(a , b , c) {
-  
-  if (c == true) {
-    // alert(`my nam is ${a} and my age is ${b} years old`)
-    return(`my nam is ${a} and my age is ${b} years old`)
-  }
-
+   
+  return(10 > 9);
 }
 
-alert(myName(yourName , age , bool));
+alert(test1());
+
 
 
 
