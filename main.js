@@ -1,17 +1,19 @@
 var num1 = Number(prompt("enter number1 :"));
-var num2 = Number(prompt("enter number2 :"));
 
-var sumString = "sum";
-var minString = "min";
-var mulString = "mul";
-var divString = "div";
 
+var sumString = "+";
+var minString = "-";
+var mulString = "*";
+var divString = "/";
 
 var operator = prompt(`please type operator:
   ${sumString}
   ${minString}
   ${mulString}
   ${divString}`);
+
+
+var num2 = Number(prompt("enter number2 :"));
 
 
   function result(a) {
