@@ -1,48 +1,12 @@
-var day = prompt("لطفا عدد یکی از روزهای هفته را وارد کنید:");
+var a = prompt('لطفا یک عدد وارد کنید');
 
-switch (day) {
-  case "0":
-     alert("شنبه");
-    break;
-  case "1":
-     alert("یکشنبه");
-    break;
-  case "2":
-     alert("دوشنبه");
-    break;
-  case "3":
-    alert("سه شنبه");
-    break;
-   case "4":
-     alert("چهارشنبه");
-    break;
-  case "5":
-     alert("پنج شنبه");
-    break;
-  case "6":
-     alert("جمعه");
-    break;
-
-  default:
-    alert("عدد وارد شده صحیح نیست");
-    break;
+if (a == 0) {
+  alert( "مقدار وارد شده صفر است ... !" );
+}
+if (a == 1) {
+  alert( "مقدار وارد شده یک است ... !"  );
 }
 
-
-// if (day === 0) {
-//   alert("شنبه");
-// }else if (day == 1) {
-//   alert("یکشنبه");
-// }else if (day == 2) {
-//   alert("دوشنبه");
-// }else if (day == 3) {
-//   alert("سه شنبه");
-// }else if (day == 4) {
-//   alert("چهارشنبه");
-// }else if (day == 5) {
-//   alert("پنج شنبه");
-// }else if (day == 6) {
-//   alert("جمعه");
-// }else {
-//   alert("عدد وارد شده صحیح نیست");
-// }
+if (a == 2 || a == 3) {
+  alert( "مقدار وارد شده دو و یا سه  است ... !"  );
+}
