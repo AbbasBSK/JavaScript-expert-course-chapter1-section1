@@ -1,12 +1,18 @@
-var a = prompt('لطفا یک عدد وارد کنید');
+var browser = prompt("please enter your computer browser");
 
-if (a == 0) {
-  alert( "مقدار وارد شده صفر است ... !" );
-}
-if (a == 1) {
-  alert( "مقدار وارد شده یک است ... !"  );
-}
+switch (browser) {
+  case "edge":
+    alert( "You've got the Edge!" );
+    break;
 
-if (a == 2 || a == 3) {
-  alert( "مقدار وارد شده دو و یا سه  است ... !"  );
+  case 'Chrome': // if (browser == "Chrome" || browser == "Firefox")
+  case 'Firefox':
+  case 'Safari':
+  case 'Opera':
+    alert( 'Okay we support these browsers too' );
+    break;
+
+  default:
+    alert( 'We hope that this page looks ok!' );
+    break;
 }
