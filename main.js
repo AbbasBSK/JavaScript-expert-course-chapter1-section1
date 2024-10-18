@@ -16,3 +16,17 @@ switch (browser) {
     alert( 'We hope that this page looks ok!' );
     break;
 }
+
+var a = prompt('لطفا یک عدد وارد کنید');
+
+if (a == 0) {
+  alert( "مقدار وارد شده صفر است ... !" );
+}
+if (a == 1) {
+  alert( "مقدار وارد شده یک است ... !"  );
+}
+
+if (a == 2 || a == 3) {
+  alert( "مقدار وارد شده دو است ... !"  );
+}
+
