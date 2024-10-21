@@ -6,7 +6,7 @@ function browserTest() {
       alert("You've got the Edge!");
       break;
 
-    case 'Chrome': // if (browser == "Chrome" || browser == "Firefox")
+    case 'Chrome': // if (browser == "Chrome" ||  browser == "Firefox")
     case 'Firefox':
     case 'Safari':
     case 'Opera':
@@ -19,16 +19,16 @@ function browserTest() {
   }
 }
 
-// var a = prompt('لطفا یک عدد وارد کنید');
+var a = prompt('لطفا یک عدد وارد کنید');
 
-// if (a == 0) {
-//   alert( "مقدار وارد شده صفر است ... !" );
-// }
-// if (a == 1) {
-//   alert( "مقدار وارد شده یک است ... !"  );
-// }
+if (a == 0) {
+  alert( "مقدار وارد شده صفر است ... !" );
+}
+if (a == 1) {
+  alert( "مقدار وارد شده یک است ... !"  );
+}
 
-// if (a == 2 || a == 3) {
-//   alert( "مقدار وارد شده دو است ... !"  );
-// }
+if (a == 2 || a == 3) {
+  alert( "مقدار وارد شده دو است ... !"  );
+}
 
