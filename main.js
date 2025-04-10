@@ -19,6 +19,8 @@ function browserTest() {
   }
 }
 
+browserTest()
+
 // var a = prompt('لطفا یک عدد از یک تا 10 وارد کنید');
 
 // if (a == 0  ) {
